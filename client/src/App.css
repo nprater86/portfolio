@@ -1,0 +1,46 @@
+.App {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  background-color: black;
+  line-height: 2;
+}
+
+#navbar {
+  background-color: black;
+  z-index: 100;
+}
+
+/* about me */
+#aboutMeSection p{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* skillset */
+#skillSetSection {
+  word-wrap: break-word;
+  line-height: 2;
+}
+
+#skillSetSection li{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* projects */
+#projectsSection p{
+  font-family: 'Roboto Mono', monospace;
+}
+
+#roboto {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.fa-solid {
+  font-size: 24px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+}
