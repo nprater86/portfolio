@@ -29,18 +29,18 @@ const Projects = props => {
     }
 
     return (
-        <div id="projectsSection">
+        <div id="projectsSection" className="d-none d-md-block">
             <div className="mb-5">
                 <h2 className="d-inline">projects</h2>
                 <img className="pb-2" src={blinking_cursor} alt="blinking cursor" />
             </div>
             <div className="row justify-content-between">
-            <div className="col-4 d-flex flex-column justify-content-end">
-                    <img onClick={ e => imgDisplayOpen(drinkmixr) } className="img-thumbnail mb-3 thumbnail" src={drinkmixr} alt="" />
-            </div>
-            <div className="col-4">
-                <img onClick={ e => imgDisplayOpen(dojoweather) } className="img-thumbnail mb-3 thumbnail" src={dojoweather} alt="" />
-            </div>
+                <div className="col-4 d-flex flex-column justify-content-end">
+                        <img onClick={ e => imgDisplayOpen(drinkmixr) } className="img-thumbnail mb-3 thumbnail" src={drinkmixr} alt="" />
+                </div>
+                <div className="col-4">
+                    <img onClick={ e => imgDisplayOpen(dojoweather) } className="img-thumbnail mb-3 thumbnail" src={dojoweather} alt="" />
+                </div>
             </div>
             <div className="row justify-content-between">
                 <div className="col-4">
