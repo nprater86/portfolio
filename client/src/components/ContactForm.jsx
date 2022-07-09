@@ -31,7 +31,7 @@ const ContactForm = () => {
     };
 
     return (
-        <Form className="w-50 d-flex flex-column" onSubmit={handleSubmit}>
+        <Form className="d-flex flex-column" onSubmit={handleSubmit}>
             <Form.Group className="mb-3">
                 <Form.Label>Name:</Form.Label>
                 <Form.Control type="text" placeholder="Enter Name" id="name" required/>

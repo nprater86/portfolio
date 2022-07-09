@@ -10,10 +10,10 @@ app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
-    service: 'gmail',
+    service: 'SendGrid',
     auth: {
-        user: "nprater86@gmail.com",
-        pass: "Wh4t3v3r@google",
+        user: "apikey",
+        pass: "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",
     },
 });
 
@@ -30,7 +30,7 @@ router.post("/contact", (req, res) => {
     const email = req.body.email;
     const message = req.body.message; 
     const mail = {
-        from: name,
+        from: email,
         to: "nprater86@gmail.com",
         subject: "Portfolio Contact Submission",
         html: `<p>Name: ${name}</p>
@@ -39,6 +39,7 @@ router.post("/contact", (req, res) => {
     };
     contactEmail.sendMail(mail, (error) => {
         if (error) {
+            console.log(error);
             res.json({ status: "ERROR" });
         } else {
             res.json({ status: "Message Sent" });

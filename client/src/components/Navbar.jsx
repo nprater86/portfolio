@@ -7,17 +7,17 @@ import LI_Logo from '../images/LI_Logo.png';
 const Navigation = props => {
 
     return (
-        <Navbar variant="dark" expand="lg" className="mb-3 border-bottom" fixed="top" id="navbar">
+        <Navbar variant="dark" expand="lg" className="mb-3 border-bottom" fixed="top" id="navbar" collapseOnSelect>
             <Container className="d-flex justify-content-between">
                 <div>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" id="myMenu">
-                        <Nav.Link data-menuanchor="aboutme" href="#aboutme">about me</Nav.Link>
-                        <Nav.Link data-menuanchor="skillset" href="#skillset">skill set</Nav.Link>
-                        <Nav.Link data-menuanchor="projects" href="#projects">projects</Nav.Link>
-                        <Nav.Link data-menuanchor="contact" href="#contact">contact</Nav.Link>
-                    </Nav>
+                        <Nav className="me-auto" id="myMenu">
+                            <Nav.Link data-menuanchor="aboutme" href="#aboutme">about me</Nav.Link>
+                            <Nav.Link data-menuanchor="skillset" href="#skillset">skill set</Nav.Link>
+                            <Nav.Link data-menuanchor="projects" href="#projects">projects</Nav.Link>
+                            <Nav.Link data-menuanchor="contact" href="#contact">contact</Nav.Link>
+                        </Nav>
                     </Navbar.Collapse>
                 </div>
                 <div className="d-flex">

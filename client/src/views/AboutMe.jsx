@@ -4,7 +4,7 @@ import blinking_cursor from '../images/blinking_cursor.gif';
 const AboutMe = props => {
     return (
         <div id="aboutMeSection">
-            <div className="mb-5">
+            <div className="mb-5" style={{marginTop: '100px'}}>
                 <h2 className="d-inline">about me</h2>
                 <img className="pb-2" src={blinking_cursor} alt="blinking cursor" />
             </div>
