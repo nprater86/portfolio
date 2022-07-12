@@ -66,7 +66,7 @@ const Projects = props => {
                 <div className="position-absolute top-50 start-50 translate-middle px-5 pb-5 pt-4 w-100 border flex-column rounded" style={{backgroundColor: 'black', display:imgDisplay}} id="popup">
                     <i onClick={ e => imgDisplayClose() } className="fa-solid fa-xmark mb-3 align-self-end thumbnail"></i>
                     <div>
-                        <iframe id="videoPlayer" style={{width:"100%", height: "65vh"}} src={src} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe id="videoPlayer" style={{width:"100%", height: "65vh"}} src={src} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>

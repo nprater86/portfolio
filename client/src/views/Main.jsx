@@ -16,6 +16,7 @@ const Main = props => {
                 anchors={['aboutme', 'skillset', 'projects', 'contact']}
                 menu={'#myMenu'}
                 keyboardScrolling={false}
+                dragAndMove={false}
 
                 render={({ state, fullpageApi }) => (
                     <ReactFullpage.Wrapper>
@@ -35,7 +36,7 @@ const Main = props => {
                 )}
             />
         </div>
-    );
+);
 }
 
 export default Main;
