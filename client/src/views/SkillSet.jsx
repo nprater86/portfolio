@@ -58,7 +58,7 @@ const SkillSet = props => {
                 </div>
             </div>
             <div className="row d-lg-none gap-2">
-                <div className="mb-5">
+                <div className="mb-2">
                     <h2 className="d-inline">skill set</h2>
                     <img className="pb-2" src={blinking_cursor} alt="blinking cursor" />
                 </div>
