@@ -57,8 +57,8 @@ const SkillSet = props => {
                     </ul>
                 </div>
             </div>
-            <div className="row d-lg-none gap-2">
-                <div className="mb-2">
+            <div className="row d-lg-none gap-2 mt-2">
+                <div className="mb-3">
                     <h2 className="d-inline">skill set</h2>
                     <img className="pb-2" src={blinking_cursor} alt="blinking cursor" />
                 </div>

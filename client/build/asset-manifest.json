@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.29c72f52.css",
-    "main.js": "/static/js/main.89615c9a.js",
+    "main.js": "/static/js/main.8ba5566b.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/drinkmixr.png": "/static/media/drinkmixr.64aa47762b588d879b7e.png",
     "static/media/storefronts.png": "/static/media/storefronts.a55fb7d305f0b5452fa2.png",
@@ -10,11 +10,11 @@
     "static/media/LI_Logo.png": "/static/media/LI_Logo.a95afc06831647f5fca2.png",
     "index.html": "/index.html",
     "main.29c72f52.css.map": "/static/css/main.29c72f52.css.map",
-    "main.89615c9a.js.map": "/static/js/main.89615c9a.js.map",
+    "main.8ba5566b.js.map": "/static/js/main.8ba5566b.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29c72f52.css",
-    "static/js/main.89615c9a.js"
+    "static/js/main.8ba5566b.js"
   ]
 }
