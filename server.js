@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
+require('dotenv').config();
 
 const app = express();
 app.use(cors());
@@ -13,7 +14,7 @@ const contactEmail = nodemailer.createTransport({
     service: 'SendGrid',
     auth: {
         user: "apikey",
-        pass: "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",
+        pass: process.env.SENDGRID_KEY,
     },
 });
 
