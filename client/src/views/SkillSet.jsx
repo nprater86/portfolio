@@ -13,6 +13,7 @@ const SkillSet = props => {
                     <h5>Languages</h5>
                     <ul>
                         <li>C#</li>
+                        <li>Java</li>
                         <li>Python</li>
                         <li>JavaScript (ES6, Node.js)</li>
                         <li>HTML5</li>
@@ -24,6 +25,7 @@ const SkillSet = props => {
                     <h5>/Libraries</h5>
                     <ul>
                         <li>ASP .NET</li>
+                        <li>Spring Boot</li>
                         <li>Flask</li>
                         <li>Jinja2</li>
                         <li>React</li>
@@ -64,12 +66,12 @@ const SkillSet = props => {
                 </div>
                 <div>
                     <h6>Languages</h6>
-                    <p className="roboto">C# | Python | JavaScript (ES6, Node.js) | HTML5 | CSS</p>
+                    <p className="roboto">C# | Java | Python | JavaScript (ES6, Node.js) | HTML5 | CSS</p>
                 </div>
                 <div>
                     <h6>Frameworks</h6>
                     <h6>/Libraries</h6>
-                    <p className="roboto">ASP .NET | Flask | Jinja2 | React | Express | Bootstrap | Material-UI</p>
+                    <p className="roboto">ASP .NET | Spring Boot | Flask | Jinja2 | React | Express | Bootstrap | Material-UI</p>
                 </div>
                 <div>
                     <h6>Databases</h6>
